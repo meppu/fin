@@ -1,0 +1,18 @@
+@use "modules/components";
+@use "modules/header";
+@use "modules/members";
+@use "modules/message";
+@use "modules/scrollbar";
+@use "modules/server";
+@use "modules/settings";
+@use "modules/sidebar";
+@use "modules/user";
+
+body {
+  font-weight: 400;
+}
+
+.grojGS,
+.iuNJGz {
+  font-weight: 600;
+}
