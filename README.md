@@ -1,16 +1,18 @@
 # Fin
 
-Fin is an attempt to make Revolt look more elegant, clean and modern.
+Fin aims to enhance the visual appeal of Revolt, giving it a more refined, clean, and modern look.
 
 ## Usage
 
-Import deployed configuration to Revolt. Configuration can be found here:
+To apply the changes to Revolt, import the provided configuration. You can find the configuration file here:
 
 ```
 https://raw.githubusercontent.com/meppu/fin/deploy/theme.json
 ```
 
 ## Screenshots
+
+Take a look at these screenshots:
 
 ![chat](.github/assets/chat.png)
 ![settings](.github/assets/settings.png)
