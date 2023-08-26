@@ -25,14 +25,14 @@
 }
 
 // ping
-.cZEhIO,
-.fhGxEk {
+.MessageBase-sc-1s9ehlg-0.cZEhIO,
+.MessageBase-sc-1s9ehlg-0.fhGxEk {
   border-left: 2px solid var(--mention);
 }
 
 // message reaction
-.cTcKPP,
-.fDfxAc {
+.sc-jSgvzq.cTcKPP,
+.sc-jSgvzq.fDfxAc {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,20 +41,19 @@
   font-weight: 400;
   font-size: small;
   margin-top: 4px;
+
+  img {
+    margin-right: 8px;
+    width: 0.8rem;
+    height: 0.8rem;
+  }
 }
 
-.cTcKPP {
-  border: 1px solid var(--background);
-}
-
-.cTcKPP img,
-.fDfxAc img {
-  margin-right: 8px;
-  width: 0.8rem;
-  height: 0.8rem;
+.sc-jSgvzq.cTcKPP {
+  border: 1px solid var(--primary-header);
 }
 
 // some buggy icon
-.jnDhDu svg {
+.MessageBox__Blocked-sc-jul4fa-1 svg {
   margin: 0 0.8rem;
 }

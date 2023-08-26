@@ -1,23 +1,24 @@
 // server header
-.jXEHHp {
+.ServerHeader__ServerBanner-sc-15ursl9-0 {
   background-color: var(--secondary-header);
   margin: 6px;
   border-radius: var(--border-radius);
   border: 1px solid var(--primary-header);
 
-  > div {
+  > div.container {
     padding: 1rem;
+    border-radius: calc(var(--border-radius) - 2px);
   }
 }
 
 // channel list style
-.JkpVA {
+.ServerSidebar__ServerBase-sc-1lca5oe-0 {
   border-right: 1px solid var(--primary-header);
 }
 
 // category and channel overrides
-.hIokec summary .padding {
-  > .iuNJGz {
+.Details-sc-3j94yd-0 summary .padding {
+  > .Category-sc-tvyi45-0 {
     font-weight: 600;
     font-size: x-small;
     color: var(--tertiary-foreground);
@@ -71,6 +72,6 @@
 }
 
 // search
-.bEeAEn {
+.InputBox-sc-13s1218-0.bEeAEn {
   background: var(--primary-background);
 }
