@@ -1,0 +1,20 @@
+.Header-sc-ujh2d9-0 {
+  color: var(--secondary-foreground);
+  font-size: smaller;
+  border-bottom: 1px solid var(--primary-header);
+  border-radius: 0;
+
+  .IconButton-sc-166lqkp-0,
+  .Header__IconContainer-sc-39hpd7-0 {
+    color: var(--tertiary-foreground);
+  }
+
+  .HeaderActions__Container-sc-11uveg7-0 {
+    gap: 8px;
+
+    .StyledIconBase-ea9ulj-0 {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
