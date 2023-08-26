@@ -6,7 +6,7 @@
   "message-box": "#2d2d2d",
   "mention": "#3399ff30",
   "success": "#3bce60",
-  "warning": "#ce893b",
+  "warning": "#ce763b",
   "tooltip": "#000000",
   "error": "#ce3b3b",
   "hover": "rgba(255, 255, 255, 0.075)",
