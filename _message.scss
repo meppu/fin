@@ -1,22 +1,60 @@
 // message box
 .MessageBox__Base-sc-jul4fa-0 {
-  margin: 1rem;
-  border-radius: 6px;
-  border-bottom: 6px solid var(--accent);
+  margin: var(--textarea-padding);
+  border-radius: var(--border-radius);
+  border-bottom: 2px solid var(--accent);
+
+  textarea {
+    border: none !important;
+  }
 }
 
 // show messages as bubble
 .MessageBase__MessageContent-sc-1s9ehlg-2 {
-  border-radius: 6px;
-  padding: .8rem 1rem;
-  background: var(--tertiary-background);
-  border: 1px solid var(--primary-header);
+  border-radius: var(--border-radius);
+  padding: 0.6rem 1rem;
+  background: var(--secondary-header);
+
+  > span {
+    margin-bottom: 4px;
+  }
 }
 
 .MessageBase-sc-1s9ehlg-0:hover {
-  background: #1a1a1a;
+  background: var(--secondary-background);
 }
 
-.cZEhIO, .fhGxEk {
-  border-left: 2px solid var(--accent);
+// ping
+.cZEhIO,
+.fhGxEk {
+  border-left: 2px solid var(--mention);
+}
+
+// message reaction
+.cTcKPP,
+.fDfxAc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: var(--primary-background);
+  font-weight: 400;
+  font-size: small;
+  margin-top: 4px;
+}
+
+.cTcKPP {
+  border: 1px solid var(--background);
+}
+
+.cTcKPP img,
+.fDfxAc img {
+  margin-right: 8px;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+// some buggy icon
+.jnDhDu svg {
+  margin: 0 0.8rem;
 }
