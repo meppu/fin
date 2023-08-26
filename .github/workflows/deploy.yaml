@@ -1,0 +1,32 @@
+name: Deploy Theme
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create /dist
+        run: mkdir dist
+
+      - name: Build SCSS
+        uses: gha-utilities/sass-build@v0.5.1
+        with:
+          source: src/theme.scss
+          destination: dist/theme.css
+
+      - name: Build JSON
+        run: |
+          jq -Rs '{ css: . }' dist/theme.css > temporary.json
+          jq -s '.[0] + .[1]' theme.template.json temporary.json > dist/theme.json
+          rm temporary.json
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: deploy
+          publish_dir: ./dist
