@@ -1,8 +1,18 @@
-@use "channel";
+@use "components";
+@use "header";
+@use "members";
 @use "message";
 @use "scrollbar";
+@use "server";
+@use "settings";
+@use "sidebar";
+@use "user";
 
-.Base-sc-1c6g74-0,
-._content_kup3j_90 {
-  border: 5px solid var(--primary-header);
+body {
+  font-weight: 400;
+}
+
+.grojGS,
+.iuNJGz {
+  font-weight: 600;
 }
