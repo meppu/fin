@@ -1,0 +1,76 @@
+// server header
+.jXEHHp {
+  background-color: var(--secondary-header);
+  margin: 6px;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--primary-header);
+
+  > div {
+    padding: 1rem;
+  }
+}
+
+// channel list style
+.JkpVA {
+  border-right: 1px solid var(--primary-header);
+}
+
+// category and channel overrides
+.hIokec summary .padding {
+  > .iuNJGz {
+    font-weight: 600;
+    font-size: x-small;
+    color: var(--tertiary-foreground);
+  }
+
+  > svg {
+    color: var(--tertiary-foreground);
+    width: 12px;
+    height: 12px;
+    margin-inline-end: 0;
+  }
+}
+
+// add notify icon
+._item_1avxi_1._compact_1avxi_19::before {
+  content: " ";
+  width: 4px;
+  height: 6px;
+  border-radius: var(--border-radius);
+  background: transparent;
+}
+
+._item_1avxi_1._compact_1avxi_19[data-active="true"]::before {
+  height: 10px;
+  background: var(--accent);
+}
+
+._item_1avxi_1._compact_1avxi_19[data-alert="true"]::before {
+  background: var(--foreground);
+}
+
+// remove existing one
+._item_1avxi_1._compact_1avxi_19 {
+  ._avatar_1avxi_56 > * {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  ._name_1avxi_60 {
+    font-weight: 400;
+  }
+
+  ._button_1avxi_73 {
+    display: none;
+  }
+}
+
+// edit permission
+.sc-hBEYId.enKwoT {
+  margin-top: 1rem;
+}
+
+// search
+.bEeAEn {
+  background: var(--primary-background);
+}
