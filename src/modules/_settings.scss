@@ -1,5 +1,7 @@
-._settings_t7t23_33 ._action_t7t23_224 ._closeButton_t7t23_240 {
-  border: 1px solid var(--tertiary-background);
+._settings_t7t23_33 {
+  ._action_t7t23_224 ._closeButton_t7t23_240 {
+    border: 1px solid var(--tertiary-background);
+  }
 }
 
 .Base-sc-j9ukbi-0 {
@@ -11,4 +13,15 @@
   }
 
   border: 1px solid var(--primary-header);
+}
+
+.Category-sc-tvyi45-0 {
+  padding-left: 0;
+  padding-bottom: 0;
+
+  color: var(--secondary-foreground);
+}
+
+._action_t7t23_224 {
+  padding-right: 2rem !important;
 }

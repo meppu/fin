@@ -14,7 +14,24 @@
 
 .Button-sc-wdolxy-0.jMjzeh,
 .Button-sc-wdolxy-0.uZBqX {
-  border: none;
+  border: none !important;
+}
+
+.StyledIconBase-ea9ulj-0 {
+  opacity: 0.8;
+}
+
+.ButtonItem-sc-1ixnesa-0 {
+  height: 32px !important;
+  padding-bottom: 2px;
+
+  .Rank-sc-sry82b-1 {
+    font-size: small;
+
+    &::after {
+      content: " - ";
+    }
+  }
 }
 
 .InputBox-sc-13s1218-0 {
