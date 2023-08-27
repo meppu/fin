@@ -14,8 +14,23 @@ https://raw.githubusercontent.com/meppu/fin/deploy/theme.json
 
 Take a look at these screenshots:
 
-![chat](.github/assets/chat.png)
-![settings](.github/assets/settings.png)
+<details><summary>Original</summary>
+
+![o_chat](.github/assets/original_chat.png)
+
+![o_settings](.github/assets/original_settings.png)
+
+</details>
+
+<details><summary>Fin</summary>
+
+![n_chat](.github/assets/new_chat.png)
+
+![n_settings](.github/assets/new_settings.png)
+
+![sus](.github/assets/sus.png)
+
+</details>
 
 ## License
 
