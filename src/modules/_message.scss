@@ -1,5 +1,5 @@
 // message box
-.MessageBox__Base-sc-jul4fa-0 {
+div[class^="MessageBox__Base-sc-"] {
   margin: var(--textarea-padding);
   border-radius: var(--border-radius);
   border-bottom: 2px solid var(--accent);
@@ -10,23 +10,25 @@
 }
 
 // show messages as bubble
-.MessageBase__MessageContent-sc-1s9ehlg-2 {
-  border-radius: var(--border-radius);
-  padding: 0.6rem 1rem;
-  background: var(--secondary-header);
+div[class^="MessageBase-sc-"] {
+  &:hover {
+    background: var(--secondary-background);
+  }
 
-  > span {
-    margin-bottom: 4px;
+  div[class^="MessageBase__MessageContent-sc-"] {
+    border-radius: var(--border-radius);
+    padding: 0.6rem 1rem;
+    background: var(--secondary-header);
+
+    > span {
+      margin-bottom: 4px;
+    }
   }
 }
 
-.MessageBase-sc-1s9ehlg-0:hover {
-  background: var(--secondary-background);
-}
-
 // ping
-.MessageBase-sc-1s9ehlg-0.cZEhIO,
-.MessageBase-sc-1s9ehlg-0.fhGxEk {
+div[class^="MessageBase-sc-"].cZEhIO,
+div[class^="MessageBase-sc-"].fhGxEk {
   border-left: 2px solid var(--mention);
 }
 
@@ -54,6 +56,6 @@
 }
 
 // some buggy icon
-.MessageBox__Blocked-sc-jul4fa-1 svg {
+[class^="MessageBox__Blocked-sc"] svg {
   margin: 0 0.8rem;
 }

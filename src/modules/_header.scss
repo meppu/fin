@@ -1,18 +1,18 @@
-.Header-sc-ujh2d9-0 {
+div[class^="Header-sc-"] {
   color: var(--secondary-foreground);
   font-size: smaller;
   border-bottom: 1px solid var(--primary-header);
   border-radius: 0;
 
-  .IconButton-sc-166lqkp-0,
-  .Header__IconContainer-sc-39hpd7-0 {
+  [class^="IconButton-sc-"],
+  [class^="Header__IconContainer-sc-"] {
     color: var(--tertiary-foreground);
   }
 
-  .HeaderActions__Container-sc-11uveg7-0 {
+  div[class^="HeaderActions__Container-sc-"] {
     gap: 8px;
 
-    .StyledIconBase-ea9ulj-0 {
+    [class^="StyledIconBase-"] {
       width: 18px;
       height: 18px;
     }

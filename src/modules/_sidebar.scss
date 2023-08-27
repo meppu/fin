@@ -1,12 +1,12 @@
-.Base-sc-yb16g4-0 {
+#app > [class^="RevoltApp__AppContainer"] > div > div > div[class^="Base-sc-"] {
   width: 64px;
   border-right: 1px solid var(--secondary-header);
 
-  .SwooshWrapper-sc-176t3v5-1 {
+  div[class^="SwooshWrapper-sc-"] {
     display: none;
   }
 
-  div:has(.SwooshWrapper-sc-176t3v5-1 > svg) + div > span > a {
+  div:has(div[class^="SwooshWrapper-sc-"] > svg) + div > span > a {
     &::before {
       content: " ";
       position: absolute;
@@ -23,22 +23,22 @@
     }
   }
 
-  .ParentBase-sc-3bwws8-2,
-  .ItemContainer-sc-176t3v5-0 {
+  div[class^="ParentBase-sc-"],
+  div[class^="ItemContainer-sc-"] {
     margin: 1px auto;
   }
 }
 
-._sidebar_t7t23_39 {
+div[class^="_settings_"] > div[class^="_sidebar_"] {
   border-right: 1px solid var(--secondary-header);
   padding-left: 12px;
 }
 
-.SidebarBase__GenericSidebarBase-sc-1dma6vq-1 {
+div[class^="SidebarBase__GenericSidebarBase-sc-"] {
   border-left: none;
   border-right: 1px solid var(--primary-header);
 }
 
-.SidebarBase-sc-1dma6vq-0 {
+div[class^="SidebarBase-sc-"] {
   border-left: 1px solid var(--primary-header);
 }

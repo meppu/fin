@@ -1,16 +1,12 @@
-.dUCGFk {
-  border-left: 1px solid var(--primary-header);
-}
-
-.MemberList__ListCategory-sc-1bwlier-0 {
+div[class^="MemberList__ListCategory-sc"] {
   font-weight: 600;
   font-size: x-small;
   text-transform: uppercase;
   color: var(--tertiary-foreground);
 }
 
-._item_1avxi_1 div._name_1avxi_60 {
-  font-weight: 500;
+div[class^="SidebarBase__GenericSidebarBase-sc-"] div[class^="_name_"] {
+  font-weight: 500 !important;
 
   > div {
     display: flex;

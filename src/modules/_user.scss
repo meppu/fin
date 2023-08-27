@@ -1,9 +1,9 @@
-.Content-sc-1d91xkm-3.bVQPpK {
+div[class^="Base-sc-"] > div[type="user_profile"] > div[type="user_profile"] {
   border-radius: calc(var(--border-radius) + 2px);
   border: 1px solid var(--primary-header);
   padding: 0;
 
-  ._tabs_kup3j_69 {
+  > div:first-child > div:last-child {
     margin-top: 4px;
   }
 }

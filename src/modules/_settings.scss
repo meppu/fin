@@ -1,10 +1,12 @@
-._settings_t7t23_33 {
-  ._action_t7t23_224 ._closeButton_t7t23_240 {
+div[class^="_settings_"] div[class^="_action_"] {
+  padding-right: 2rem !important;
+
+  [class^="_closeButton_"] {
     border: 1px solid var(--tertiary-background);
   }
 }
 
-.Base-sc-j9ukbi-0 {
+a[class^="Base-sc-"] {
   .content {
     .title,
     .description {
@@ -15,13 +17,9 @@
   border: 1px solid var(--primary-header);
 }
 
-.Category-sc-tvyi45-0 {
+div[class^="Category-sc-"] {
   padding-left: 0;
   padding-bottom: 0;
 
   color: var(--secondary-foreground);
-}
-
-._action_t7t23_224 {
-  padding-right: 2rem !important;
 }

@@ -1,31 +1,31 @@
-.Base-sc-1c6g74-0,
+[class^="_user_"] > [class^="Base-sc-"],
 .hZCoEm,
-.Checkmark-sc-1c2l8gq-6,
-.ComboBox-sc-f94r78-0,
+[class^="Checkmark-sc-"],
+[class^="ComboBox-sc-"],
 .code,
-.Button-sc-wdolxy-0,
-.TextArea-sc-1kh63xd-0,
-.InputBox-sc-13s1218-0,
-.EmbedInvite__EmbedInviteBase-sc-154n8c6-0,
+[class^="Button-sc-"],
+[class^="TextArea-sc-"],
+[class^="InputBox-sc-"],
+[class^="EmbedInvite__EmbedInviteBase-sc-"],
 #Status,
 #Menu {
   border: 1px solid var(--primary-header) !important;
 }
 
-.Button-sc-wdolxy-0.jMjzeh,
-.Button-sc-wdolxy-0.uZBqX {
+[class^="Button-sc-"].jMjzeh,
+[class^="Button-sc-"].uZBqX {
   border: none !important;
 }
 
-.StyledIconBase-ea9ulj-0 {
+[class^="StyledIconBase"] {
   opacity: 0.8;
 }
 
-.ButtonItem-sc-1ixnesa-0 {
+[class^="ButtonItem-sc-"] {
   height: 32px !important;
   padding-bottom: 2px;
 
-  .Rank-sc-sry82b-1 {
+  [class^="Rank-sc-"] {
     font-size: small;
 
     &::after {
@@ -34,38 +34,38 @@
   }
 }
 
-.InputBox-sc-13s1218-0 {
+[class^="InputBox-sc-"] {
   padding: 8px !important;
 }
 
-.InputBox-sc-13s1218-0.jfZYHN .entry .override input[type="text"] {
+[class^="InputBox-sc-"] .entry .override input[type="text"] {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 
-.Column-sc-mmjmg6-0 {
+[class^="Column-sc-"] {
   .iuNJGz {
     padding: 0;
     margin-bottom: 4px;
   }
 }
 
-.ComboBox-sc-f94r78-0 {
+[class^="ComboBox-sc-"] {
   padding: 8px;
 }
 
-.TipBase-sc-upm053-0.jzUIcb {
+[class^="_user_"] [class^="TipBase-sc-"] {
   background: var(--secondary-background);
   border: 1px solid var(--secondary-header);
 }
 
-._contentcontainer_t7t23_62 {
+[class^="_contentcontainer_"] {
   h1 {
     font-size: medium !important;
   }
 
   h3,
-  ._titleNew_fwdgs_576 {
+  [class^="_titleNew_"] {
     display: flex;
     align-items: center;
 
@@ -82,14 +82,14 @@
   }
 }
 
-._userDetail_fwdgs_33 {
+[class^="_userDetail_"] {
   > div {
     font-size: medium;
 
     display: flex;
     align-items: center;
 
-    > .lmzVaj {
+    > [class^="MyBots__BotBadge-sc-"] {
       margin-left: 4px;
     }
   }
