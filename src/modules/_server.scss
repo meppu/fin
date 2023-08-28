@@ -45,6 +45,10 @@ details[class^="Details-sc-"] {
     background: var(--foreground);
   }
 
+  a > div:has(div[data-style="mention"])::before {
+    background: var(--error);
+  }
+
   a > div::before {
     content: " ";
     width: 4px;
